@@ -6,4 +6,4 @@ class BaseHandler(tornado.web.RequestHandler):
         pass
 
     def get(self, *args, **kwargs):
-        self.render('index.hmtl')
+        self.render('index.html')
